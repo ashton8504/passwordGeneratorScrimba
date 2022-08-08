@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Karla;
+    src: url("KarlaBold.ttf");
+}
+@font-face {
+    font-family: Inter;
+    src: url("InterFont.ttf");
+}
+
+body {
+    color: white;
+    background: #1F2937;
+    display: flex;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+
+background: #1F2937;
+}
+.password-page{
+    width: 300px;
+    margin: 30px auto;
+}
+.password-generator{
+    display: flex;
+    justify-content:  space-between; 
+    border-top: 1px solid #2F3E53;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+#password-one, #password-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #55F991;
+    font-size: 10px;
+    border-radius: 3px;
+    background: #273549;
+
+    width: 130px;
+    height:25px
+}
+.btn-style{
+    background: #10B981;
+    padding: 8px 15px;
+    font-size: 13px;
+    color:  white;
+    text-shadow: 0 0 20px  #1F2937;
+    border-radius: 6px;
+    border: none;
+}
+.btn-style:hover{
+    background-color: #3e8e41;
+}
+.btn-style:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.password-message{
+    width: 372px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #D5D4D8;
+}
+.p-style{
+    font-family: Karla;
+    margin-bottom: 8px;
+    font-size: 25px;
+    width: 354px;
+    height: 80px;
+    font-size: 40px;
+}
+.span-style{
+    color:#4ADF86;
+    display: block;
+}
